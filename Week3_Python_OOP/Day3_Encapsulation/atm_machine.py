@@ -25,7 +25,6 @@ class Atm:
             self.withdraw_amount()
 
 
-
     def create_pin(self):
         user_pin = int(input(f"Enter your pin: "))
         self.pin = user_pin
