@@ -7,12 +7,14 @@ class Atm:
 
     def menu(self):
         user_input = int(input("""
+        --------------------------------
         1. Press 1 for Create pin
         2. Press 2 for Reset pin
         3. Press 3 for check balance
         4. Press 4 for withdraw amount
         5. Press anything to exit
-        choose anything to
+
+        choose anything to ::
         """))
 
         if user_input == 1:
